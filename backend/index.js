@@ -46,9 +46,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://eazy-parking-mern.vercel.app",
-      "https://eazyparking.tech",
-      "https://eazyparking-v2.vercel.app",
+      "https://park-n-go-eosin.vercel.app",
     ],
     methods: ["GET", "POST", "PATCH", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
