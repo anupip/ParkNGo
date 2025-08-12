@@ -47,6 +47,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "https://park-n-go-eosin.vercel.app",
+      "https://parkngo-7x07.onrender.com",
     ],
     methods: ["GET", "POST", "PATCH", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
